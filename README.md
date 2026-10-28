@@ -13,7 +13,7 @@
 
 **오예진¹ · 강고은¹ · 김희영¹ · 이재서² · 정재훈² · 김지훈³ · Vu Tuan Anh⁴ · 하일도³,⁴\***  
 *¹국립부경대학교 컴퓨터인공지능공학부, ²통계데이터사이언스전공, ³통계데이터사이언스학과, ⁴인공지능융합학과*  
-*(한국데이터정보과학회 학술대회 포스터 발표)*
+*(한국데이터정보과학회 학술대회 발표)*
 
 </div>
 
@@ -200,7 +200,7 @@ $$\text{혼잡도}_{l,t} (\%) = \left(\frac{\text{승객 수요}_{l,t}}{\text{�
 
 ```text
 ├── docs/
-│   └── images/                    # 포스터 발표 자료 및 결과 그래프 이미지
+│   └── images/                              # 연구 아키텍처 및 결과 시각화 그래프
 │       ├── lstm_dnn_architecture.png
 │       ├── boarding_demand_prediction_2025.png
 │       ├── xai_integrated_gradients.png
@@ -209,11 +209,8 @@ $$\text{혼잡도}_{l,t} (\%) = \left(\frac{\text{승객 수요}_{l,t}}{\text{�
 │       ├── cnn_lstm_architecture.png
 │       ├── congestion_prediction_2025.png
 │       └── congestion_forecast_2026.png
-├── data/                          # 부산교통공사 승하차 및 시각표 데이터
-├── notebooks/
-│   └── 부산교통공사_승하차_데이터_분석.ipynb
-├── KDISS_포스터.pptx              # 학술대회 최종 발표 포스터
-├── KDISS_포스터_초록.pdf           # 포스터 논문 초록
+├── Busan_Metro_Demand_and_Congestion_XAI.ipynb  # 전체 연구 파이프라인 (LSTM-DNN, XAI, CNN-LSTM) 메인 연구 노트북
+├── 부산교통공사_승하차_데이터_분석.ipynb          # 공공데이터 전처리 및 기초 통계 분석 노트북
 └── README.md
 ```
 

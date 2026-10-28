@@ -5,6 +5,10 @@
 경유판매가격/
 2026-06/
 
+# Documents & Presentations (Local only)
+*.pptx
+*.pdf
+
 # Shortcuts / Temporary
 *.lnk
 .ipynb_checkpoints/
