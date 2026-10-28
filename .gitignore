@@ -1,0 +1,12 @@
+# Large Data Files (GitHub 100MB file limit)
+*.csv
+*.xlsx
+승하차 데이터/
+경유판매가격/
+2026-06/
+
+# Shortcuts / Temporary
+*.lnk
+.ipynb_checkpoints/
+__pycache__/
+*.tmp
